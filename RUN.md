@@ -1,6 +1,6 @@
 1. В отдельном conda env запустите ipynb файл. Выполняя первые ячейки необходимые библиотеки были загружены. Выполнение производилось на Nvidia A100, можно понизить разрешение картинок и batch_size, если при запуске ноутбука происходит RuntimeError: CUDA out of memory.
 2. conda.env наслучай конфликтов библиотек
-   ```
+```
    # Name                    Version                   Build  Channel
 _libgcc_mutex             0.1                        main
 _openmp_mutex             5.1                       1_gnu
