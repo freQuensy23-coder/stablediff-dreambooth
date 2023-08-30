@@ -2,6 +2,8 @@
 
 (Нажмите [сюда](https://giphy.com/gifs/0h8BstKmNNgtrvZ7w5/fullscreen) если github не возпроизводит gif)
 
+_Попробовать модель можно в huggingface spaces - [freQuensy23/diffusion-cloody](https://huggingface.co/freQuensy23/diffusion-cloody)_
+
 **DreamBooth** - это технология позволяющая  до обучить диффузионную модель качественно генерировать картинки какого-то конкретного объекта (например героя своего комикса или домашнего животного) обучившись на небольшом наборе его фотографий.
 При стандартном до обучении мы обозначаем наш обобьет каким то именем, которого  нет в промптах к исходной обучающей выборке модели (например \[V\]) и просто до обучаем ее веса.
 Однако такой подход имеет две проблемы (которые были решены в данной статье)
@@ -48,4 +50,4 @@
 При обучении модели нет смысла обучать все её веса, достаточно обучения небольших адаптеров. Подробнее о том как это работает написано в [моей статье на хабре.](https://habr.com/ru/articles/747534/)
 # Воспроизведение результатов
 Я до обучил [stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) на двух собственных датасетах - [фотографии кошки (cloody-cat)](https://huggingface.co/datasets/freQuensy23/cloody-cat) и декоративного гриба.  Интерактивная демонстрация работы моей модели на hf -  [freQuensy23/diffusion-cloody](https://huggingface.co/freQuensy23/diffusion-cloody)
-Весь код находится в данном репозитории. См [инструкцию](https://github.com/freQuensy23-coder/stablediff-dreambooth/edit/main/README.md)https://github.com/freQuensy23-coder/stablediff-dreambooth/edit/main/RUN.md по развертыванию что бы повторить результат. 
+Весь код находится в данном репозитории. См [инструкцию](https://github.com/freQuensy23-coder/stablediff-dreambooth/edit/main/README.md) по развертыванию что бы повторить результат. 
